@@ -219,6 +219,7 @@ footer {
     width: 20%;
     margin: 60px auto;
 }
+
 /* ---ft-logo-end--- */
 
 /* ---ftnav-top--- */
@@ -267,8 +268,7 @@ footer {
 
 .info {
     max-width: 100%;
-    width: 400px;
-    margin: 20px;
+    margin: 20px 10px;
     font-size: xx-small;
     line-height: 20px;
     background-color: antiquewhite;
@@ -293,12 +293,11 @@ footer {
     width: 50%;
     display: flex;
     justify-content: center;
-    margin: 20px 5px;
+    margin: 20px 10px;
     align-items: center;
     background-color: #999;
 }
 
-/* ---img-st--- */
 .tell-img {
     width: 30px;
     display: flex;
@@ -324,7 +323,6 @@ footer {
     width: 80%;
     margin: 5px;
 }
-/* ---img-end--- */
 /* ---footer-end--- */
 
 .box {
@@ -440,8 +438,9 @@ footer {
 
 .ft-container {
     max-width: 100%;
-    width: 720px;
+    width: 600px;
 }
+
 .copy {
     max-width: 100%; 
 }
@@ -470,11 +469,6 @@ header {
 .ftnav {
     max-width: 100%;
     width: 800px;
-}
-
-.ft-container {
-    max-width: 100%;
-    width: 720px;
 }
 
 .copy {

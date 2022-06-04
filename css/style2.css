@@ -286,7 +286,6 @@ footer {
 }
 
 .tell p, .email p {
-    margin: 0 5px;
     letter-spacing: 0;
 }
 
@@ -300,16 +299,25 @@ footer {
 }
 
 /* ---img-st--- */
-.tell img {
+.tell-img {
     width: 30px;
     display: flex;
     align-items: center;
 }
 
-.email img {
+.tell-img img {
+    width:50%;
+    text-align: center;
+}
+.email-img {
     width: 30px;
     display: flex;
     align-items: center;
+}
+
+.email-img img {
+    width:50%;
+    text-align: center;
 }
 
 .sns img {
@@ -403,6 +411,10 @@ footer {
 
 /* ---footer-st--- */
 
+.tell p, .email p {
+    margin: 0 5px;
+    letter-spacing: 0;
+}
 /* ---img-st--- */
 .tell img {
     width: 30px;
@@ -428,8 +440,8 @@ footer {
 
 .ft-container {
     max-width: 100%;
+    width: 720px;
 }
-
 .copy {
     max-width: 100%; 
 }

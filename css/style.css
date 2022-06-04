@@ -287,6 +287,7 @@ footer {
 
 .tell p, .email p {
     letter-spacing: 0;
+    margin-left: -10px;
 }
 
 .sns {

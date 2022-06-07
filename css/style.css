@@ -247,7 +247,7 @@ footer {
 }
 
 .ft-container {
-    width: 100%;
+    width: 90%;
     margin: 0 auto;
     display: flex;
     justify-content: space-around;

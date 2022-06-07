@@ -9,7 +9,7 @@ body {
     letter-spacing: 0.5rem;
     line-height: 1.7;
     color: #333333;
-    background-color: #F7E8ED;
+    background-color: #FFFCFC;
 }
 
 *{ 
@@ -134,7 +134,7 @@ header {
 	top: 0;
 	left: 0;
 	z-index: 500;
-    background-color: #F7E8ED;
+    background-color: #FFFCFC;
 }
 
 /* ---header-top--- */
@@ -280,16 +280,17 @@ footer {
 }
 
 .ft-logo img {
-    width: 120px;
+    width: 20%;
     margin: 60px auto;
 }
+
 /* ---ft-logo-end--- */
 
 /* ---ftnav-top--- */
 .ftnav {
     max-width: 100%;
     margin: 0 auto;
-    padding: 20px;
+    padding: 20px;  
 }
 
 .ftnav-list {
@@ -330,8 +331,7 @@ footer {
 
 .info {
     max-width: 100%;
-    width: 400px;
-    margin: 20px;
+    margin: 20px 10px;
     font-size: xx-small;
     line-height: 20px;
 }
@@ -339,7 +339,6 @@ footer {
 .adress ul li {
     list-style: none;
     letter-spacing: 0;
-    text-align: start;
 }
 
 .tell, .email {
@@ -348,36 +347,43 @@ footer {
 }
 
 .tell p, .email p {
-    margin: 0 5px;
     letter-spacing: 0;
+    margin-left: -10px;
 }
 
 .sns {
     width: 50%;
     display: flex;
     justify-content: center;
-    margin: 20px 5px;
+    margin: 20px 10px;
     align-items: center;
 }
 
-/* ---img-st--- */
-.tell img {
+.tell-img {
     width: 30px;
     display: flex;
     align-items: center;
 }
 
-.email img {
+.tell-img img {
+    width:50%;
+    text-align: center;
+}
+.email-img {
     width: 30px;
     display: flex;
     align-items: center;
+}
+
+.email-img img {
+    width:50%;
+    text-align: center;
 }
 
 .sns img {
     width: 80%;
     margin: 5px;
 }
-/* ---img-end--- */
 /* ---footer-end--- */
 
 
@@ -460,23 +466,27 @@ footer {
 
 
 /* ---footer-st--- */
+.adress {
+    margin-bottom: 10px;
+}
+.tell p, .email p {
+    margin: 0 5px;
+    letter-spacing: 0;
+}
 /* ---img-st--- */
-.tell img {
-    width: 30px;
-    display: flex;
-    align-items: center;
+.tell-img img {
+    width:70%;
 }
 
-.email img {
-    width: 30px;
-    display: flex;
-    align-items: center;
+.email-img img {
+    width:70%;
 }
 
 .sns img {
-    width: 60px;
-    margin: 10px;
+    width: 80%;
+    margin: 5px;
 }
+
 /* ---img-end--- */
 
 .ftnav {
@@ -485,6 +495,7 @@ footer {
 
 .ft-container {
     max-width: 100%;
+    width: 600px;
 }
 
 .copy {
@@ -522,11 +533,6 @@ footer {
 .ftnav {
     max-width: 100%;
     width: 800px;
-}
-
-.ft-container {
-    max-width: 100%;
-    width: 720px;
 }
 
 .copy {

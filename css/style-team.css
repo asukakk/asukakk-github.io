@@ -9,7 +9,7 @@ body {
     letter-spacing: 0.5rem;
     line-height: 1.7;
     color: #333333;
-    background-color: #F7E8ED;
+    background-color: #FFFCFC;
 }
 
 *{ 
@@ -78,7 +78,7 @@ body {
   nav.globalMenuSp {
     position: fixed;
     z-index : 2;
-    top: 25px;
+    top: 20px;
     left : 0;
     color: #000;
     /* background: #fff; */
@@ -134,7 +134,7 @@ header {
 	top: 0;
 	left: 0;
 	z-index: 500;
-    background-color: #F7E8ED;
+    background-color: #FFFCFC;
 }
 
 /* ---header-top--- */
@@ -325,7 +325,7 @@ footer {
 }
 
 .ft-container {
-    width: 100%;
+    width: 90%;
     margin: 0 auto;
     display: flex;
     justify-content: space-around;
@@ -357,36 +357,43 @@ footer {
 }
 
 .tell p, .email p {
-    margin: 0 5px;
     letter-spacing: 0;
+    margin-left: -10px;
 }
 
 .sns {
     width: 50%;
     display: flex;
     justify-content: center;
-    margin: 20px 5px;
+    margin: 20px 10px;
     align-items: center;
 }
 
-/* ---img-st--- */
-.tell img {
+.tell-img {
     width: 30px;
     display: flex;
     align-items: center;
 }
 
-.email img {
+.tell-img img {
+    width:50%;
+    text-align: center;
+}
+.email-img {
     width: 30px;
     display: flex;
     align-items: center;
+}
+
+.email-img img {
+    width:50%;
+    text-align: center;
 }
 
 .sns img {
     width: 80%;
     margin: 5px;
 }
-/* ---img-end--- */
 /* ---footer-end--- */
 
 
@@ -469,23 +476,27 @@ footer {
 
 /* ---team-end--- */
 /* ---footer-st--- */
+.adress {
+    margin-bottom: 10px;
+}
+.tell p, .email p {
+    margin: 0 5px;
+    letter-spacing: 0;
+}
 /* ---img-st--- */
-.tell img {
-    width: 30px;
-    display: flex;
-    align-items: center;
+.tell-img img {
+    width:70%;
 }
 
-.email img {
-    width: 30px;
-    display: flex;
-    align-items: center;
+.email-img img {
+    width:70%;
 }
 
 .sns img {
-    width: 60px;
-    margin: 10px;
+    width: 80%;
+    margin: 5px;
 }
+
 /* ---img-end--- */
 
 .ftnav {
@@ -494,6 +505,7 @@ footer {
 
 .ft-container {
     max-width: 100%;
+    width: 600px;
 }
 
 .copy {
@@ -533,11 +545,6 @@ footer {
 .ftnav {
     max-width: 100%;
     width: 800px;
-}
-
-.ft-container {
-    max-width: 100%;
-    width: 720px;
 }
 
 .copy {

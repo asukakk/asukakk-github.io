@@ -10,6 +10,7 @@ body {
     line-height: 1.7;
     color: #333333;
     background-color: #FFFCFC;
+    letter-spacing: 0;
 }
 
 *{ 
@@ -45,18 +46,18 @@ body {
     transition        : 0.3s ease-in-out;
   }
   .hamburger span:nth-child(1) {
-    top: 10px;
+    top: 50px;
   }
   .hamburger span:nth-child(2) {
-    top: 20px;
+    top: 60px;
   }
   .hamburger span:nth-child(3) {
-    top: 30px;
+    top: 70px;
   }
   
   /* ナビ開いてる時のボタン */
   .hamburger.active span:nth-child(1) {
-    top : 16px;
+    top : 65px;
     left: 6px;
     -webkit-transform: rotate(-45deg);
     -moz-transform   : rotate(-45deg);
@@ -65,7 +66,7 @@ body {
   
   .hamburger.active span:nth-child(2),
   .hamburger.active span:nth-child(3) {
-    top: 16px;
+    top: 65px;
     -webkit-transform: rotate(45deg);
     -moz-transform   : rotate(45deg);
     transform        : rotate(45deg);
@@ -78,7 +79,7 @@ body {
   nav.globalMenuSp {
     position: fixed;
     z-index : 2;
-    top: 25px;
+    top: 20px;
     left : 0;
     color: #000;
     /* background: #fff; */
@@ -141,7 +142,7 @@ header {
 .header-inner {
     max-width: 100%;
     height: auto;
-    margin: 0 auto;
+    margin: 20px auto;
     display: flex;
     justify-content: space-between;
 }
@@ -232,7 +233,7 @@ section {
     max-width: 100%;
     margin: 0 auto;
     padding: 0 10px;
-    line-height: 30px;
+    line-height: 40px;
 }
 
 .txt h3 {
@@ -332,7 +333,6 @@ footer {
     padding-left: 10px;
 	border-left: 1px solid #999;
     font-size: xx-small;
-    letter-spacing: 0;
 }
 
 .ft-container {

@@ -5,6 +5,7 @@ html {
 }
 
 body {
+    font-family: 'Lora','源ノ角ゴシック';
     font-size: 1.6rem;
     letter-spacing: 0.5rem;
     line-height: 1.7;
@@ -254,7 +255,7 @@ table.brwsr1 th.r1 {
 }
     
 table.brwsr1 td.r2 {
-    width: 6%;
+    width: 9%;
 }
     
 table.brwsr1 th {
@@ -276,6 +277,7 @@ table.brwsr2 {
     max-width: 80%;
     font-size: 12px;
     margin: 100px auto 0 auto;
+    padding: 0 20px;
     border-collapse: separate;
     border-spacing: 0px 1px;
 }
@@ -296,42 +298,37 @@ table.brwsr2 td {
 }
     
 table.brwsr2 th.r1 {
-    width: 5%;
+    height: 40px;
     border-right: #999 1px solid;
     text-align: center;
 }
     
 table.brwsr2 th.r2,
 table.brwsr2 td.r2 {
-    width: 5%;
     border-right: #999 1px solid;
     text-align: center;
 }
     
 table.brwsr2 th.r3,
 table.brwsr2 td.r3 {
-    width: 5%;
     border-right: #999 1px solid;
     text-align: center;
 }
     
 table.brwsr2 th.r4,
 table.brwsr2 td.r4 {
-    width: 5%;
     border-right: #999 1px solid;
     text-align: center;
 }
 
 table.brwsr2 th.r5,
 table.brwsr2 td.r5 {
-    width: 5%;
     border-right: #999 1px solid;
     text-align: center;
 }
 
 table.brwsr2 th.r6,
 table.brwsr2 td.r6 {
-    width: 2%;
     text-align: center;
 }
 
@@ -365,7 +362,24 @@ tr.none .r4 {
 /* ---Price-end--- */
 
 
-
+/* ---table scroll-st--- */
+.scroll table{
+    width:100%;
+    }
+    .scroll{
+    overflow: auto;  /*tableをスクロールさせる*/
+    white-space: nowrap;  /*tableのセル内にある文字の折り返しを禁止*/
+    }
+    .scroll::-webkit-scrollbar{ /*tableにスクロールバーを追加*/
+     height: 5px;
+    }
+    .scroll::-webkit-scrollbar-track{  /*tableにスクロールバーを追加*/
+     background: #F1F1F1;
+    }
+    .scroll::-webkit-scrollbar-thumb { /*tableにスクロールバーを追加*/
+     background: #BCBCBC;
+    }
+/* ---table scroll-end--- */
 
 
 
@@ -487,8 +501,7 @@ table.brwsr4 td.r2 {
 }
     
 table.brwsr4 th.r2,
-table.brwsr4 th.r3,
-table.brwsr4 th.r4 {
+table.brwsr4 th.r3 {
     text-align: center;
 }
     

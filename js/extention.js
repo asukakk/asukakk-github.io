@@ -12,15 +12,19 @@ $(function(){
 			{
 				breakpoint: 600,//breakpoint
 				settings: {
-					slidesToShow: 2,
-					slidesToScroll: 2
+					slidesToShow: 1,
+					slidesToScroll: 1,
+					centerMode: true,
+                    centerPadding: "15%",
 				}
 			},
 			{
 				breakpoint: 480,//breakpoint
 				settings: {
 					slidesToShow: 1,
-					slidesToScroll: 1
+					slidesToScroll: 1,
+					centerMode: true,
+                    centerPadding: "15%",
 				}
 			}
 		]
@@ -53,4 +57,6 @@ $(function(){
 		]
 	});
 });
+
+
 

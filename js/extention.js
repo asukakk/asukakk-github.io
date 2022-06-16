@@ -44,14 +44,14 @@ $(function(){
 				breakpoint: 600,//breakpoint
 				settings: {
 					slidesToShow: 1,
-					slidesToScroll: 1
+					slidesToScroll: 1,
 				}
 			},
 			{
 				breakpoint: 480,//breakpoint
 				settings: {
 					slidesToShow: 1,
-					slidesToScroll: 1
+					slidesToScroll: 1,
 				}
 			}
 		]

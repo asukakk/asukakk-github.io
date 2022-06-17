@@ -353,7 +353,7 @@ section {
 
 
 /* ---how to join--- */
-.flex {
+.join {
     max-width: 90%;
     display: join;
     justify-content: center;

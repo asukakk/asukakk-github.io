@@ -5,7 +5,7 @@ html {
 }
 
 body {
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     letter-spacing: 0.5rem;
     line-height: 1.7;
     color: #333333;
@@ -248,7 +248,7 @@ footer {
 }
 
 .ft-container {
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
     display: flex;
     justify-content: space-around;
@@ -423,11 +423,9 @@ footer {
 
 .ftnav {
     max-width: 100%;
-    width: 600px;
 }
 
 .ft-container {
-    max-width: 100%;
     width: 600px;
 }
 

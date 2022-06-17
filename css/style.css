@@ -355,7 +355,7 @@ section {
 /* ---how to join--- */
 .flex {
     max-width: 90%;
-    display: flex;
+    display: join;
     justify-content: center;
     align-items: center;
     margin: 0 auto; 

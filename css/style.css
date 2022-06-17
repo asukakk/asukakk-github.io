@@ -421,10 +421,6 @@ footer {
 
 /* ---img-end--- */
 
-.ftnav {
-    max-width: 90%;
-}
-
 .ft-container {
     width: 600px;
 }
@@ -455,7 +451,6 @@ header {
 }
 
 .ftnav {
-    max-width: 100%;
     width: 800px;
 }
 

@@ -353,6 +353,22 @@ section {
 
 
 /* ---how to join--- */
+.flex {
+    max-width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto; 
+}
+
+.do-photo img {
+    margin-left: -100px;
+}
+
+.do {
+    margin-left: 20px;
+}
+
 .howtxt {
     max-width: 100%;
     margin: 0 auto;
@@ -361,8 +377,8 @@ section {
 
 .howtxt h3 {
     font-size: medium;
-    text-align: center;
-    margin-bottom: 30px    
+    text-align: center; 
+    padding-bottom: 30px;
 }
 
 .howtxt-inner {
@@ -717,6 +733,10 @@ footer {
 }
 
 /* ---how to join--- */
+.do img {
+    margin-left: -100px;
+}
+
 .howtxt {
     padding: 0 10px;
 }
@@ -779,13 +799,7 @@ img.sp {
 
 /* ---img-end--- */
 
-.ftnav {
-    max-width: 100%;
-    /* width: 600px; */
-}
-
 .ft-container {
-    max-width: 100%;
     width: 600px;
 }
 
@@ -830,7 +844,6 @@ section {
     margin: 60px auto;
 }
 .ftnav {
-    max-width: 100%;
     width: 800px;
 }
 
